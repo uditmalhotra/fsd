@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Place all CSS for header in this file -->
+    <link href='css\header.css' rel='stylesheet' type='text/css'>
+
+    <!-- Place all CSS for the rest of the elements in this file -->
+    <link href='css\index.css' rel='stylesheet' type='text/css'>
+
+	<!-- Place all CSS for fonts in this file -->
+    <link href='css\font.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div id="main-container-div">
+
+        <div class="header">
+
+        	<!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
+             <button type="button" id="myBtn2">Sign Up</button>
+            <button type="button" id="myBtn1">Sign In</button>
+            
+            <h1>ScriBBler</h1>
+            <p>Explore, Imagine, Create</p>
+            
+
+        </div>
+           
+        <div class="postButtons">
+
+        	<!-- Insert code for All Posts & Create Post button here -->
+            <button type="button" id="allPost">All Post</button>
+            <button type="button" id="createPost">Create Post</button>
+
+        </div>
+    </div>
+    
+    <div class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Welcome Back !</h3>
+            <hr>
+            <form>
+                <div class="inputField">
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter Full Name" required><br><br>
+                </div>
+                <div class="inputField">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter Password" required><br><br>
+                </div>
+                <div class="inputField">
+                    <button id="submitButton" type="submit">Sign In</button>
+                </div><br>
+                <div class="inputField">
+                    <p id="pLink">Not a member? <a id="link">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Get Started</h3>
+            <hr>
+            <form>
+                <div class="inputField">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter Full Name" required><br><br>
+                </div>
+                <div class="inputField">
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter Username" required><br><br>
+                </div>
+                <div class="inputField">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter Password" required><br><br>
+                </div>
+                <div class="inputField">
+                    <label>Confirm Password</label>
+                    <input type="password" placeholder="Confirm Password" required>
+                </div>
+                <div class="inputField">
+                    <button id="submitButton" type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+    <div class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Create Post</h3>
+            <hr>
+            <form>
+                <div class="inputField">
+                    <label>Title</label>
+                    <input type="text" placeholder="Enter title" required><br><br>
+                </div>
+                <div class="inputField">
+                    <label>Content</label>
+                    <textarea rows="10" cols="10" type="text" placeholder="Enter Content" required></textarea><br><br>
+                </div>
+                <div class="inputField">
+                    <button id="submitButton" type="submit">Submit</button>
+                </div><br>
+            </form>
+        </div>
+    </div>
+
+	<!-- Place all Javascript for header in this file -->
+	<script src="js\header.js"></script>
+	<!-- Place all Javascript for rest of the elements in this file -->
+    <script src="js\index.js"></script>
+
+</body>
+</html>

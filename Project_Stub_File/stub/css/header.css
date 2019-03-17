@@ -1,0 +1,31 @@
+/* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
+the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+.header h1{
+    font-family: satisfy, cursive;
+    color: rgb(0, 51, 204);
+    font-size:50px;
+    font-weight: 100;
+    margin:0px;
+    padding:0.5%;
+    padding-bottom: 0px;
+}
+
+.header p{
+    font-family: Marck Script, cursive;
+    font-weight: 400;
+    font-size:100%;
+    margin:0px;
+    padding:0.5%;
+}
+
+.header button{
+    color:white;
+    background-color: rgba(0, 51, 204,0.7);
+    padding:0.5%;
+    width:6%;
+    margin: 0.5%;
+    float:right;
+    border: none;
+    border-radius: 5%;
+    font-weight: bolder;
+}
